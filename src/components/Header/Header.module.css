@@ -1,0 +1,58 @@
+.container {
+  padding: 50px 30px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+  background-color: rgb(238, 252, 255);
+  min-height: 85vh;
+}
+
+.heading {
+  margin: 0 auto;
+  max-width: 500px;
+  color: #000;
+  font-size: 3.1rem;
+  line-height: 4.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.heading span {
+  background-clip: text;
+  background-image: linear-gradient(to right, #239ce2, #1369b9);
+  color: transparent;
+}
+
+.right img {
+  width: 400px;
+}
+
+.down img {
+  width: 150px;
+  height: 200px;
+}
+
+.new{
+  width: 100px;
+  height: 600px;
+  display: grid;
+  row-gap: 10px;
+  padding: 10px;
+  position: relative;
+  top: -35px;
+}
+
+.child{
+  width: 150px;
+  height: 200px;
+  border: 5px;
+  margin-top: 10px;
+}
+
+.image{
+  width:100px;
+  height:200px;
+}
